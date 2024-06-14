@@ -78,7 +78,7 @@ app.get('/', async (req, res) => {
     res.render('index', { validators })
 })
 
-const port = 3000
+const port = 8080
 app.listen(port, () => {
     console.log(`App is running on http://localhost:${port}`)
 })
